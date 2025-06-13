@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "german-legal-mcp": {
+      "command": "python",
+      "args": [
+        "-m", 
+        "german_legal_mcp.main"
+      ],
+      "cwd": "C:\\Users\\Nerd\\Desktop\\german_legal_mcp",
+      "env": {
+        "LEGAL_DATA_PATH": "C:\\Users\\Nerd\\AppData\\Local\\AnthropicClaude\\app-0.10.14\\ultimate_plus_plus_legal.db",
+        "LOG_LEVEL": "INFO",
+        "SEARCH_CACHE_SIZE": "50",
+        "DB_CACHE_SIZE": "10000"
+      }
+    }
+  }
+}
